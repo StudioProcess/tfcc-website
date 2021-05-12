@@ -1,0 +1,67 @@
+.navbar {
+  background: rgba(250, 249, 231, 0.9);
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom: 1px solid $font-color;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $font-color;
+}
+
+.navbar-toggler {
+	border: none;
+  background: transparent !important;
+	border-radius: 0;
+}
+.navbar-toggler:focus {
+	outline: 0;
+}
+.navbar-toggler:hover {
+  background: transparent !important;
+}
+.navbar-toggler .icon-bar {
+	display: block;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
+	background-color: $font-color;
+  transition: all 0.8s;
+}
+.navbar-toggler .icon-bar+.icon-bar {
+	margin-top: 4px;
+}
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+.navbar-toggler {
+	border-radius: 0;
+}
+
+.nav-link:hover, .nav-link.active {
+  font-family: 'LaNordBoldItalic', Arial, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}

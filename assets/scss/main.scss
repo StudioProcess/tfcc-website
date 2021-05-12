@@ -1,0 +1,379 @@
+@import 'fonts';
+
+// === OWN VARIABLES ===
+
+$brand-color: #FAF9E7;
+$font-color: #000000;
+
+
+
+// === BOOTSTRAP VARIABLES ===
+
+$body-bg: $brand-color;
+$body-color: $font-color;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1440px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1380px
+);
+
+$enable-rounded: false;
+$grid-gutter-width: 25px;
+
+$link-color: $font-color;
+$link-decoration: underline;
+$link-hover-color: $font-color;
+
+$font-family-sans-serif: 'LaNordRegular', Arial, sans-serif;
+
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 3),
+    6: ($spacer * 4),
+    7: ($spacer * 5.5),
+    8: ($spacer * 7.5),
+    9: ($spacer * 10),
+    10: ($spacer * 15),
+  ),
+  $spacers
+);
+
+
+
+// === IMPORT ===
+
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-vue/src/index.scss';
+@import 'typography';
+@import 'nav';
+
+
+
+// === MAIN STYLES ===
+
+.container, .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+main {
+  margin-top: 80px;
+}
+
+main .container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+main .container-md .row, main .container-md hr, main .container-md .section-divider {
+  margin-left: 17.5px;
+  margin-right: 17.5px;
+}
+
+@media (max-width: 767px) {
+  .cmpx-30 {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+  .cmmx-30 {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+  }
+  .cmpx-0 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .cmmx-0 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+}
+
+footer, footer p {
+  font-size: 11px;
+}
+footer img {
+  width: 70px;
+}
+@media (min-width: 992px) {
+  footer, footer p {
+    font-size: 14px;
+  }
+  footer img {
+    width: 105px;
+  }
+}
+
+.footer-inner-wrapper {
+  padding: 30px;
+}
+
+.bg-lighter {
+  background-color: rgba(255,255,255,0.3)
+}
+.bg-little-lighter {
+  background-color: rgba(255,255,255,0.15)
+}
+
+ul.circle-bullets, ul.arrow-bullets {
+  list-style: none;
+  padding: 0;
+}
+ul.circle-bullets li {
+  padding-left: 1.5em;
+}
+ul.circle-bullets li:before {
+  content: "\e836";
+  font-family: 'Material Icons';
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: text-top;
+  margin-left: -1.5em;
+  width: 1.5em;
+}
+@media (min-width: 992px) {
+  ul.circle-bullets li:before {
+    font-size: 18px;
+    vertical-align: middle;
+  }
+}
+
+ul.arrow-bullets li {
+  padding-left: 40px;
+}
+ul.arrow-bullets li:before {
+  content: "\e5c8";
+  font-family: 'Material Icons';
+  font-size: 30px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -40px;
+  width: 40px;
+}
+@media (min-width: 992px) {
+  ul.arrow-bullets li {
+    padding-left: 80px;
+  }
+  ul.arrow-bullets li:before {
+    font-size: 64px;
+    margin-left: -80px;
+    width: 80px;
+  }
+}
+
+hr {
+  border-top: 1px solid #000000;
+}
+hr.full-width {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section-divider {
+  height: 51px;
+  border-bottom: 1px solid #000000;
+}
+@media (min-width: 992px) {
+  .section-divider {
+    height: 57px;
+  }
+}
+
+.tabs .nav {
+  display: none;
+}
+
+.archive-list-item {
+  border:1px solid #ccc
+}
+.archive-list-item:hover {
+  border: 1px solid #FFFFFF;
+  background-color: #FFFFFF;
+}
+
+@media (min-width: 992px) {
+  .link-with-tooltip-image:hover .tooltip-image {
+    display: block;
+  }
+}
+
+.tooltip-image {
+  display: none;
+  margin-left: 20px;
+  padding: 10px;
+  position: fixed;
+  overflow: hidden;
+  z-index: -100;
+  width: 450px;
+  height: auto;
+}
+
+
+// === UTILITIES ===
+
+.position-absolute-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .position-absolute-bottom-lg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+.page-enter-active, .page-leave-active {
+  transition: opacity 0.3s;
+}
+.page-enter, .page-leave-to {
+  opacity: 0;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+label.minimal-radio {
+  cursor: default;
+
+  input[type=radio]:not(:checked), input[type=radio]:checked {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  input[type=checkbox], input[type=radio] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+  input[type=radio]:not(:checked)+span, input[type=radio]:checked+span {
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    -webkit-transition: .28s ease;
+    transition: .28s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  input[type=radio]:checked+span:before {
+    border: 2px solid transparent;
+  }
+
+  input[type=radio]:not(:checked)+span:before, input[type=radio]:not(:checked)+span:after, input[type=radio]:checked+span:before, input[type=radio]:checked+span:after {
+    border-radius: 50%;
+  }
+
+  input[type=radio]+span:before, input[type=radio]+span:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 6px;
+    width: 14px;
+    height: 14px;
+    z-index: 0;
+    -webkit-transition: .28s ease;
+    transition: .28s ease;
+  }
+
+  input[type=radio]:not(:checked)+span:before, input[type=radio]:not(:checked)+span:after {
+    border: 2px solid #000000;
+  }
+
+  input[type=radio]:not(:checked)+span:after {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  input[type=radio]:checked+span:after {
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+  }
+
+  input[type=radio]:checked+span:after {
+    background-color: #000000;
+  }
+
+  input[type=radio]:checked+span:after {
+    border: 2px solid #000000;
+  }
+}
+
+
+// label.minimal-radio {
+//   display: inline-flex;
+//   align-items: flex-end;
+
+//   input[type=checkbox],
+//   input[type=radio] {
+//     position: relative;
+//     appearance: none;
+//     font-size: 15px;
+//     width: 1em;
+//     margin: 0;
+//     color: inherit;
+//     outline: none;
+//     font-family: 'Material Icons';
+//     transition: 300ms ease-out;
+
+//     &::after {
+//       content: '\e836';
+//       display: inline-block;
+//       text-align: center;
+//       width: 1em;
+//     }
+
+//     &:checked::after {
+//       font-weight: 900;
+//     }
+//     &:active {
+//       transform: scale(.6);
+//     }
+
+//     + span {
+//       margin-left: .35em;
+//     }
+//   }
+  
+//   input[type=checkbox]:checked::after {
+//     content: '\ef4a';
+//   }
+//   input[type=radio]:checked::after {
+//     content: '\ef4a';
+//   }
+// }
+

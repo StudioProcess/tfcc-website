@@ -1,0 +1,149 @@
+.f700, h1, .h1, h2, .h2, h3, .h3 {
+  font-family: 'LaNordBold', Arial, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.f700i {
+  font-family: 'LaNordBoldItalic', Arial, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.f500 {
+  font-family: 'LaNordMedium', Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.f500i {
+  font-family: 'LaNordMediumItalic', Arial, sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.f400 {
+  font-family: 'LaNordRegular', Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.f400i {
+  font-family: 'LaNordRegularItalic', Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+strong {
+  font-family: 'LaNordMedium', Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+em {
+  font-family: 'LaNordRegularItalic', Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+em.medium {
+  font-family: 'LaNordMediumItalic', Arial, sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+em.bold {
+  font-family: 'LaNordBoldItalic', Arial, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+h1, .h1 {
+  font-size: 41px; // Überschriften (Sections): ALL CAPS
+  text-transform: uppercase;
+}
+.h1 .material-icons {
+  font-size: 36px;
+  vertical-align: middle;
+}
+
+h2, .h2 {
+  font-size: 28px;
+}
+
+h3, .h3 {
+  font-size: 18px; // Überschriften (in Fließtext, kleiner): ALL CAPS
+  text-transform: uppercase;
+}
+
+p, .paragraph {
+  font-size: 17px; // Fließtext
+}
+
+p .material-icons {
+  font-size: 17px;
+  vertical-align: -3px;
+}
+
+p.h1 .material-icons {
+  font-size: 41px;
+  vertical-align: -6px;
+}
+
+.text-14 {
+  font-size: 14px;
+}
+
+.text-tokens-count {
+  font-size: 17px;
+}
+
+.text-smaller {
+  font-size: 15px; // Mittlerer Text (zB. Archive)
+}
+
+.text-smallest {
+  font-size: 12px; // Captions, Kleinerer Text
+}
+
+ul.arrow-bullets a.h1 {
+  font-size: 34px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 992px) { // >=lg
+  h1, .h1 {
+    font-size: 70px;
+  }
+  .h1 .material-icons {
+    font-size: 64px;
+    vertical-align: middle;
+  }
+  h2, .h2 {
+    font-size: 36px;
+  }
+  h3, .h3 {
+    font-size: 24px;
+  }
+  p, .paragraph {
+    font-size: 20px; // not 21
+  }
+  p.h1 .material-icons {
+    font-size: 70px;
+    vertical-align: -10px;
+  }
+  .text-tokens-count {
+    font-size: 28px;
+  }
+  .text-smaller {
+    font-size: 17px;
+  }
+  .text-smallest {
+    font-size: 15px;
+  }
+  ul.arrow-bullets a.h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+  }
+}
+
