@@ -12,7 +12,7 @@
             <p class="f700 text-uppercase mb-4">London Design Biennale</p>
             <p class="mb-4">Process – Studio for Art and Design was commissioned by <strong>MAK Museum of Applied Arts</strong>, Vienna to realize the official Austrian contribution to <strong>London Design Biennale 2021</strong>.</p>
             <p class="mb-4">For this occasion an installation version of the project is produced. Visitors can interact with it using their mobile phones. After they select a combination of three keywords the generated tokens are projected on a large circular pedestal using a single-beam laser projector.</p>
-            <p class="mb-4">Five wall-mounted graphic artworks as well as a brochure explain the project in detail.</p>
+            <p class="mb-4">Five fine art pigment prints on matte photo rag are mounted on the walls.</p>
             <p class="mb-0"><strong>The installation will be shown from 1 - 27 June 2021 at Somerset House London and from 19 October – 21 November 2021 at MAK, Vienna.</strong></p>
           </b-col>
           <b-col lg="5" offset-lg="1" class="cmpx-0">

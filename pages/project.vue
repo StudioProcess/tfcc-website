@@ -64,7 +64,7 @@
           </b-col>
           <b-col lg="5" order-lg="1" offset-lg="1" class="cmpx-0 mt-4 mt-lg-0 pr-lg-5">
             <img src="/images/project_s1_01.jpg" class="img-responsive">
-            <p class="cmpx-30 text-smallest mt-2">First sketches of the mobile interface</p>
+            <p class="cmpx-30 text-smallest mt-2">The mobile interface</p>
           </b-col>
         </b-row>
         <b-row class="cmmx-0 mt-6">
@@ -208,8 +208,8 @@
             <p class="mb-4">Process is an experimental design studio based in Vienna, specializing in generative and interactive design and working in the fields of branding, web, installation and print. As well as traditional graphic design solutions, Process designs and develops highly specialized software that is used as tools for and by clients. The studio is directed by Martin Grödl and Moritz Resl.</p>
             <p class="mb-0">
               Web: <a href="https://www.process.studio" class="f500" target="_blank" rel="follow">www.process.studio</a><br>
-              Instagram: <a href="https://www.instagram.com/process.studio" class="f500" target="_blank" rel="nofollow">www.instagram.com/process.studio</a><br>
-              Twitter: <a href="https://www.twitter.com/studioprocess" class="f500" target="_blank" rel="nofollow">www.twitter.com/studioprocess</a>
+              Instagram: <a href="https://www.instagram.com/process.studio" class="f500" target="_blank" rel="nofollow">@process.studio</a><br>
+              Twitter: <a href="https://www.twitter.com/studioprocess" class="f500" target="_blank" rel="nofollow">@studioprocess</a>
             </p>
           </b-col>
         </b-row>
