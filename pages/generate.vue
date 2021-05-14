@@ -351,7 +351,7 @@
               <p class="f700 text-smaller text-uppercase my-2">Share</p>
             </b-col>
             <b-col cols="8">
-              <p class="my-2 text-smaller"><a :href="`https://twitter.com/intent/tweet?text=Here's my TOKEN FOR CLIMATE CARE using '${token.keywords.join(', ')}'. Have a look: ${baseUrl}/archive/token?id=${token.id}&hashtags=tokensforclimatecare`" target="_blank" rel="nofollow">Twitter</a></p>
+              <p class="my-2 text-smaller"><a :href="`https://twitter.com/intent/tweet?text=TOKEN FOR CLIMATE CARE using '${token.keywords.join(', ')}'. Have a look: ${baseUrl}/archive/token?id=${token.id}&hashtags=tokensforclimatecare`" target="_blank" rel="nofollow">Twitter</a></p>
             </b-col>
           </b-row>
           <hr>

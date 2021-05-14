@@ -50,7 +50,7 @@
               <p class="f700 text-uppercase text-smallest">Share</p>
             </b-col>
             <b-col cols="7" lg="8">
-              <p class="text-smaller mb-0"><a :href="`https://twitter.com/intent/tweet?text=Here's my TOKEN FOR CLIMATE CARE using '${token.keywords.join(', ')}'. Have a look: ${baseUrl}/archive/token?id=${token.id}&hashtags=tokensforclimatecare`" target="_blank" rel="nofollow">Twitter</a></p>
+              <p class="text-smaller mb-0"><a :href="`https://twitter.com/intent/tweet?text=TOKEN FOR CLIMATE CARE using '${token.keywords.join(', ')}'. Have a look: ${baseUrl}/archive/token?id=${token.id}&hashtags=tokensforclimatecare`" target="_blank" rel="nofollow">Twitter</a></p>
             </b-col>
           </b-row>
           <hr class="mt-0">
