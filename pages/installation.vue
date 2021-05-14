@@ -32,14 +32,14 @@
         <b-row class="cmmx-0 mt-6">
           <b-col class="cmpx-0">
             <img src="/images/installation_s2_01.jpg" class="img-responsive">
-            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation View (Mockup): Laser projection on pedestal, printed artwork (not final) hanging on walls, computer wired and housed within smaller pedestal</p>
+            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation View: Laser projection on pedestal, printed artwork hanging on walls, computer wired and housed within smaller pedestal</p>
             <p class="cmpx-30 text-smallest">Image by Some Place Studio</p>
           </b-col>
         </b-row>
         <b-row class="cmmx-0 mt-6">
           <b-col lg="10" offset-lg="1" class="cmpx-0">
             <img src="/images/installation_s2_02.jpg" class="img-responsive">
-            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation View (Mockup): Laser projection on pedestal, printed artwork (not final) hanging on walls, computer wired and housed within smaller pedestal</p>
+            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation View: Laser projection on pedestal, printed artwork hanging on walls, computer wired and housed within smaller pedestal</p>
             <p class="cmpx-30 text-smallest">Image by Some Place Studio</p>
           </b-col>
         </b-row>
@@ -52,7 +52,7 @@
             <p class="f700 mb-4">An Installation by Process – Studio for Art and Design</p>
             <p class="f700 mb-0">Participating Country: Austria</p>
             <p class="f700 mb-4">Commissioned by MAK Museum of Applied Arts, Vienna</p>
-            <p class="f700 text-uppercase mb-0">Concept, Design</p>
+            <p class="f700 text-uppercase mb-0">Concept, Design, Development</p>
             <p class="mb-4">Process – Studio for Art and Design<br>Martin Grödl and Moritz Resl</p>
             <p class="mb-4">Technical Realization developed in cooperation with enliteAI</p>
             <p class="f700 text-uppercase mb-0">Curator</p>
