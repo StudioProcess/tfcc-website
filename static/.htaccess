@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# /token/<id>  ->  /archive/token?id=<id>
+RewriteRule ^token/(.*)$ /archive/token?id=$1 [R,L]
+
+# /archive/<id>  ->  /archive/token?id=<id>
+RewriteRule ^archive/token - [L] # stop because archive/token?id=... is a valid url and should not be changed by the following rule
+RewriteRule ^archive/(.*)$ /archive/token?id=$1 [R,L]
