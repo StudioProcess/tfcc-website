@@ -312,14 +312,14 @@
         <b-container v-if="token.id" fluid="md">
           <b-row>
             <b-col class="text-center">
-              <p class="h2 mb-5">Token generated!</p>
-              <p class="f700">Watch the installation and wait for your token to be projected! Look out for your shape and color!</p>
-              <p class="f700 mb-4">Here's the unique URL of your Token.</p>
+              <p class="h2 mb-5">Token created!</p>
+              <p class="f700">Watch the installation—your Token is being projected!</p>
+              <p class="f700 mb-4">Here's the unique URL of your Token:</p>
             </b-col>
           </b-row>
           <b-row class="cmmx-0 py-4 bg-white">
             <b-col class="cmpx-0 text-center">
-              <p class="text-smallest mb-0"><a :href="baseUrl + '/archive/token?id=' + token.id" target="_blank">{{ baseUrl }}/archive/token?id={{ token.id }}</a></p>
+              <p class="text-smallest mb-0"><a :href="baseUrl + '/archive/' + token.id" target="_blank">{{ baseUrl }}/archive/{{ token.id }}</a></p>
             </b-col>
           </b-row>
           <b-row class="cmmx-0 my-4 bg-white">
@@ -351,7 +351,7 @@
               <p class="f700 text-smaller text-uppercase my-2">Share</p>
             </b-col>
             <b-col cols="8">
-              <p class="my-2 text-smaller"><a :href="`https://twitter.com/intent/tweet?text=TOKEN FOR CLIMATE CARE using '${token.keywords.join(', ')}'. Have a look: ${baseUrl}/archive/token?id=${token.id}&hashtags=tokensforclimatecare`" target="_blank" rel="nofollow">Twitter</a></p>
+              <p class="my-2 text-smaller"><a :href="`https://twitter.com/intent/tweet?text=TOKEN FOR CLIMATE CARE using '${token.keywords.join(', ')}'. Have a look: ${baseUrl}/archive/${token.id}&hashtags=tokensforclimatecare`" target="_blank" rel="nofollow">Twitter</a></p>
             </b-col>
           </b-row>
           <hr>
