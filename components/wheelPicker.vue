@@ -41,7 +41,7 @@ export default {
         // this.keyword3.updateSource(this.getFilteredKeywordsList(3))
         if (selected.value === this.selectedKeyword2 || selected.value === this.selectedKeyword3) {
           const indexOfSelectedKeyword = this.keywordsList1.findIndex(el => el === selected.value)
-          this.keyword1.select(this.keywordsList1[indexOfSelectedKeyword + 1])
+          this.keyword1.select(this.keywordsList1[(indexOfSelectedKeyword + 1) % this.keywordsList1.length])
         }
       }
     })
@@ -57,7 +57,7 @@ export default {
         // this.keyword3.updateSource(this.getFilteredKeywordsList(3))
         if (selected.value === this.selectedKeyword1 || selected.value === this.selectedKeyword3) {
           const indexOfSelectedKeyword = this.keywordsList2.findIndex(el => el === selected.value)
-          this.keyword2.select(this.keywordsList2[indexOfSelectedKeyword + 1])
+          this.keyword2.select(this.keywordsList2[(indexOfSelectedKeyword + 1) % this.keywordsList2.length])
         }
       }
     })
@@ -73,7 +73,7 @@ export default {
         // this.keyword2.updateSource(this.getFilteredKeywordsList(2))
         if (selected.value === this.selectedKeyword1 || selected.value === this.selectedKeyword2) {
           const indexOfSelectedKeyword = this.keywordsList3.findIndex(el => el === selected.value)
-          this.keyword3.select(this.keywordsList3[indexOfSelectedKeyword + 1])
+          this.keyword3.select(this.keywordsList3[(indexOfSelectedKeyword + 1) % this.keywordsList3.length])
         }
       }
     })
