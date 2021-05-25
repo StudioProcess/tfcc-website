@@ -75,9 +75,9 @@
 <script>
 import dayjs from 'dayjs'
 import utc from 'dayjs/plugin/utc'
-import timezone from 'dayjs/plugin/timezone'
+// import timezone from 'dayjs/plugin/timezone'
 dayjs.extend(utc)
-dayjs.extend(timezone)
+// dayjs.extend(timezone)
 
 export default {
   data () {
@@ -148,11 +148,11 @@ export default {
     },
     // Format date
     formatDate (date) {
-      return date ? dayjs(date).tz('Europe/Paris').format('YYYY-MM-DD') : '-'
+      return date ? dayjs(date).format('YYYY-MM-DD') : '-'
     },
     // Format time
     formatTime (date) {
-      return date ? dayjs(date).tz('Europe/Paris').format('HH:mm:ss') : '-'
+      return date ? dayjs(date).format('HH:mm:ss') : '-'
     }
   }
 }
