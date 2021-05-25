@@ -85,7 +85,6 @@ export default {
   },
   methods: {
     rndShiftArray (array) {
-      console.log(array)
       const shift = Math.floor(Math.random() * array.length)
       const copy = [...array]
       const removed = copy.splice(0, shift)
