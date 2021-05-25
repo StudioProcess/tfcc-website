@@ -13,12 +13,12 @@
           </b-col>
           <b-col lg="4" class="d-none d-lg-block">
             <ol class="list-unstyled paragraph text-uppercase f700">
-              <li><a href="#term-1">1 Taking care for common good</a></li>
+              <li><a href="#term-1">1 Taking care</a></li>
               <li><a href="#term-2">2 No harm</a></li>
               <li><a href="#term-3">3 Discourse and dignity</a></li>
               <li><a href="#term-4">4 Inclusion</a></li>
               <li><a href="#term-5">5 Your responsibility</a></li>
-              <li><a href="#term-6">6 Changes and modification</a></li>
+              <li><a href="#term-6">6 Re-mix</a></li>
               <li><a href="#term-7">7 Commercial projects</a></li>
               <li><a href="#term-8">8 Include reference</a></li>
               <li><a href="#term-9">9 Share-alike</a></li>
@@ -36,7 +36,7 @@
             <span class="h1 pl-2 pl-lg-0">1</span>
           </b-col>
           <b-col cols="10" lg="5" class="text-right text-lg-left">
-            <h2 class="h3 mt-3 mb-0 pr-2 pr-lg-0">Taking care for common good</h2>
+            <h2 class="h3 mt-3 mb-0 pr-2 pr-lg-0">Taking care</h2>
           </b-col>
         </b-row>
         <b-row class="bg-lighter pt-3">
@@ -116,12 +116,12 @@
             <span class="h1 pl-2 pl-lg-0">6</span>
           </b-col>
           <b-col cols="10" lg="5" class="text-right text-lg-left">
-            <h2 class="h3 mt-3 mb-0 pr-2 pr-lg-0">Changes and modification</h2>
+            <h2 class="h3 mt-3 mb-0 pr-2 pr-lg-0">Re-mix</h2>
           </b-col>
         </b-row>
         <b-row class="pt-3">
           <b-col cols="10" lg="5" offset-lg="2">
-            <p class="text-smaller mb-0 mt-lg-n3 pl-2 pl-lg-0">You are allowed to modify, re-mix, adapt or change the Tokens.</p>
+            <p class="text-smaller mb-0 mt-lg-n3 pl-2 pl-lg-0">You are encouraged to modify, re-mix, adapt or change the Tokens to better suit your purpose.</p>
           </b-col>
         </b-row>
       </section>

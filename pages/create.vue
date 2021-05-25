@@ -127,7 +127,7 @@
               <span class="h1 pl-2 pl-lg-0">1</span>
             </b-col>
             <b-col cols="10" lg="5" class="text-right text-lg-left">
-              <h2 class="h3 mt-3 mb-0 pr-2 pr-lg-0">Taking care for common good</h2>
+              <h2 class="h3 mt-3 mb-0 pr-2 pr-lg-0">Taking care</h2>
             </b-col>
           </b-row>
           <b-row class="bg-little-lighter pt-3">
@@ -197,12 +197,12 @@
               <span class="h1 pl-2 pl-lg-0">6</span>
             </b-col>
             <b-col cols="10" lg="5" class="text-right text-lg-left">
-              <h2 class="h3 mt-3 mb-0 pr-2 pr-lg-0">Changes and modification</h2>
+              <h2 class="h3 mt-3 mb-0 pr-2 pr-lg-0">Re-mix</h2>
             </b-col>
           </b-row>
           <b-row class="pt-3">
             <b-col cols="10" lg="5" offset-lg="2">
-              <p class="text-smaller mb-0 mt-lg-n3 pl-2 pl-lg-0">You are allowed to modify, re-mix, adapt or change the Tokens.</p>
+              <p class="text-smaller mb-0 mt-lg-n3 pl-2 pl-lg-0">You are encouraged to modify, re-mix, adapt or change the Tokens to better suit your purpose.</p>
             </b-col>
           </b-row>
           <div class="section-divider" />
