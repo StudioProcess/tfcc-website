@@ -3,5 +3,3 @@ node_modules
 .nuxt
 dist/
 .eslintcache
-.eslintignore
-.eslintrc.js
