@@ -16,7 +16,7 @@
       <b-row class="cmmx-0 mb-5">
         <b-col lg="7" class="cmpx-0">
           <!-- eslint-disable-next-line -->
-          <div v-html="token.svg" class="bg-white" />
+          <div v-html="token.svg" class="bg-white token-padding" />
         </b-col>
         <b-col lg="5" class="cmpx-0">
           <hr class="mt-0">

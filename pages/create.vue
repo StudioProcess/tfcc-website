@@ -323,7 +323,7 @@
             </b-col>
           </b-row>
           <b-row class="cmmx-0 my-4 bg-white">
-            <b-col class="cmpx-0 text-center">
+            <b-col class="cmpx-0 text-center token-padding">
               <!-- eslint-disable-next-line -->
               <div v-html="token.svg" />
             </b-col>

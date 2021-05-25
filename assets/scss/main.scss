@@ -227,6 +227,11 @@ hr.full-width {
   height: auto;
 }
 
+// padding for single tokens (archive/token or create), since token SVGs might use their full viewbox
+.token-padding {
+  padding: 1rem !important;
+}
+
 
 // === UTILITIES ===
 
