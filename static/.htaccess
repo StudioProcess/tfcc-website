@@ -1,12 +1,23 @@
 RewriteEngine On
 
 # /token/<id>  ->  /archive/token?id=<id>
-RewriteRule ^token/(.*)$ /archive/token/?id=$1 [R,L]
+RewriteRule ^token/(.+)$ /archive/token/?id=$1 [R,L]
 
 # /archive/<id>  ->  /archive/token?id=<id>
 RewriteCond %{QUERY_STRING} ^$
-RewriteRule ^archive/(.*)$ /archive/token/?id=$1 [R,L]
+RewriteRule ^archive/(.+)$ /archive/token/?id=$1 [R,L]
 
-# /generate/<auth>  ->  /generate?auth=<auth>
+
+# /generate/<auth_token>  ->  /create?auth=<auth_token>
 RewriteCond %{QUERY_STRING} ^$
-RewriteRule ^generate/(.*)$ /generate/?auth=$1 [R,L]
+RewriteRule ^generate/(.+)$ /create/?auth=$1 [R,L]
+
+# /generate -> /create
+# or: /generate/?auth=<auth_token>  ->  /create/?auth=<auth_token>
+# Note: query string is appended automatically
+RewriteRule ^generate/?$ /create/ [R,L]
+
+
+# /create/<auth_token>  ->  /create?auth=<auth_token>
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^create/(.+)$ /create/?auth=$1 [R,L]
