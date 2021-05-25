@@ -250,7 +250,7 @@
           <div class="section-divider bg-little-lighter" />
           <b-row class="mt-4 mb-8">
             <b-col lg="5" offset-lg="2">
-              <p class="text-smallest">These terms have partly been inspired by the “Contract for the Web – A global plan of action to make our online world safe and empowering for everyone”. More information at https://contractfortheweb.org.</p>
+              <p class="text-smallest">These terms have partly been inspired by the “Contract for the Web – A global plan of action to make our online world safe and empowering for everyone”. More information at <a href="https://contractfortheweb.org" target="_blank" rel="nofollow">contractfortheweb.org</a>.</p>
             </b-col>
           </b-row>
         </b-container>
