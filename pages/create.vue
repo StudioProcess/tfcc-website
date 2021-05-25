@@ -319,7 +319,7 @@
           </b-row>
           <b-row class="cmmx-0 py-4 bg-white">
             <b-col class="cmpx-0 text-center">
-              <p class="text-smallest mb-0"><a :href="baseUrl + '/archive/' + token.id" target="_blank">{{ baseUrl }}/archive/{{ token.id }}</a></p>
+              <p class="text-smallest mb-0"><a :href="tokenUrl" target="_blank">{{ tokenUrl }}</a></p>
             </b-col>
           </b-row>
           <b-row class="cmmx-0 my-4 bg-white">
@@ -405,6 +405,7 @@ export default {
       queuePosition: null,
       sequence: '',
       tokenId: '',
+      tokenUrl: '',
       token: {},
       defaultBgColor: '250, 249, 231',
       bgColor: '255, 104, 104',
@@ -516,6 +517,7 @@ export default {
           const response = await res.json()
           if (response.queue_position === 0) {
             this.tokenId = response.token_id
+            this.setTokenUrl(this.tokenId)
             this.getToken()
             this.tabIndex++ // go to next screen
           } else {
@@ -600,6 +602,13 @@ export default {
         .substring(1).match(/.{2}/g)
         .map(x => parseInt(x, 16))
       return rgb.join(', ')
+    },
+    setTokenUrl (tokenId) {
+      if (this.baseUrl.includes('//localhost')) {
+        this.tokenUrl = `${this.baseUrl}/archive/token?id=${tokenId}`
+      } else {
+        this.tokenUrl = `${this.baseUrl}/archive/${tokenId}`
+      }
     }
   }
 }
