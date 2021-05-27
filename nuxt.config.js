@@ -32,6 +32,9 @@ export default {
       { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
       { rel: 'manifest', href: '/site.webmanifest' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' }
+    ],
+    script: [
+      { src: '/matomo.js', defer: true }
     ]
   },
 
