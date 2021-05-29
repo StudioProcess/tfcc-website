@@ -32,9 +32,6 @@ export default {
       { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
       { rel: 'manifest', href: '/site.webmanifest' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' }
-    ],
-    script: [
-      { src: '/matomo.js', defer: true }
     ]
   },
 
@@ -58,7 +55,9 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/bootstrap
-    'bootstrap-vue/nuxt'
+    'bootstrap-vue/nuxt',
+    // https://github.com/pimlie/nuxt-matomo
+    ['nuxt-matomo', { matomoUrl: '//matomo.process.studio/', siteId: 1, cookies: false }],
   ],
   bootstrapVue: {
     bootstrapCSS: false, // Or `css: false`
