@@ -232,6 +232,30 @@ hr.full-width {
   padding: 1rem !important;
 }
 
+.create-start-btn {
+  border-top:1px solid #000000;
+  height: 57px;
+  max-height: 57px;
+
+  section {
+    cursor: pointer;
+  }
+
+  p {
+    line-height: 55px;
+  }
+}
+@media (min-width: 992px) {
+  .create-start-btn {
+    height: 63px;
+    max-height: 63px;
+  
+    p {
+      line-height: 60px;
+    }
+  }
+}
+
 
 // === UTILITIES ===
 

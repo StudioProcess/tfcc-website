@@ -90,6 +90,11 @@ p.h1 .material-icons {
   vertical-align: -6px;
 }
 
+p.h2 .material-icons {
+  font-size: 28px;
+  vertical-align: -4px;
+}
+
 .text-14 {
   font-size: 14px;
 }
@@ -131,6 +136,10 @@ ul.arrow-bullets a.h1 {
   p.h1 .material-icons {
     font-size: 70px;
     vertical-align: -10px;
+  }
+  p.h2 .material-icons {
+    font-size: 36px;
+    vertical-align: -5px;
   }
   .text-tokens-count {
     font-size: 28px;

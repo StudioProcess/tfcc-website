@@ -61,12 +61,12 @@
             </b-row>
           </section>
         </b-container>
-        <div class="fixed-bottom bg-white" style="border-top:1px solid #000000">
+        <div class="fixed-bottom bg-white create-start-btn">
           <b-container fluid="md">
-            <section class="py-5" style="cursor:pointer" @click="tabIndex++; component = 'Picker'">
+            <section @click="tabIndex++; component = 'Picker'">
               <b-row class="mx-0">
                 <b-col class="text-center">
-                  <p class="h1"><span class="material-icons mr-2">arrow_forward</span>Start</p>
+                  <p class="h2 text-uppercase"><span class="material-icons mr-2">arrow_forward</span>Start</p>
                 </b-col>
               </b-row>
             </section>
