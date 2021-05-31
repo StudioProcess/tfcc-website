@@ -2,7 +2,7 @@
   <div id="app">
     <Header />
     <Nuxt />
-    <footer v-if="!$route.path.includes('generate')" :class="$route.path === '/' ? 'position-absolute-bottom' : ''">
+    <footer v-if="!$route.path.includes('create')" :class="$route.path === '/' ? 'position-absolute-bottom' : ''">
       <Footer />
     </footer>
   </div>
