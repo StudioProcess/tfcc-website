@@ -590,6 +590,7 @@ export default {
     async restart () {
       this.tabIndex = 0
       window.scrollTo(0, 0)
+      this.component = null
       await this.requestInteraction()
     },
     // Set background color
