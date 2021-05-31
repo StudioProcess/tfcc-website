@@ -57,12 +57,13 @@
           <b-row class="mt-4">
             <b-col>
               <p class="f700 text-smaller mb-0">
-                <a :href="`${baseUrl}/archive/download?id=${token.id}&format=png`"><span class="material-icons mr-1">arrow_downward</span>Download PNG</a>
+                <a :href="`${baseUrl}/archive/download?id=${token.id}`" class="d-block d-lg-none" target="_blank"><span class="material-icons mr-1">arrow_downward</span>Download PNG</a>
+                <a href="" class="d-none d-lg-block" @click.prevent="downloadToken('png')"><span class="material-icons mr-1">arrow_downward</span>Download PNG</a>
               </p>
             </b-col>
             <b-col class="text-right">
               <p class="f700 text-smaller mb-0">
-                <a href="" class="d-none d-lg-block" @click.prevent="downloadToken()"><span class="material-icons mr-1">arrow_downward</span>Download SVG</a>
+                <a href="" class="d-none d-lg-block" @click.prevent="downloadToken('svg')"><span class="material-icons mr-1">arrow_downward</span>Download SVG</a>
               </p>
             </b-col>
           </b-row>
@@ -120,12 +121,12 @@ export default {
         })
       }
     },
-    downloadToken () {
+    downloadToken (format) {
       this.apiError = ''
-      fetch(`${this.url}/svg?id=${this.$route.query.id}`, {
+      fetch(`${this.url}/${format}?id=${this.$route.query.id}`, {
         method: 'GET',
         headers: {
-          Accept: 'image/svg+xml'
+          Accept: format === 'png' ? 'image/png' : 'image/svg+xml'
         }
       }).then((res) => {
         res.blob().then(blob => this.download(blob, `token_${this.$route.query.id}`))
@@ -139,7 +140,6 @@ export default {
       const a = document.createElement('a')
       a.style.display = 'none'
       a.href = url
-      // the filename you want
       a.download = filename
       document.body.appendChild(a)
       a.click()
