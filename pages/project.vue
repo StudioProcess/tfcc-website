@@ -13,7 +13,7 @@
               <li class="mb-2">
                 <a href="#what-is-it" class="h1 link-with-tooltip-image">
                   What is it?
-                  <img src="/images/project_s1_01.jpg" class="tooltip-image" width="100%">
+                  <img src="/images/process_tokens-for-climate-care_web_mobile.jpg" class="tooltip-image" width="100%">
                 </a>
               </li>
               <li class="mb-2">
@@ -63,7 +63,7 @@
             </ul>
           </b-col>
           <b-col lg="5" order-lg="1" offset-lg="1" class="cmpx-0 mt-4 mt-lg-0 pr-lg-5">
-            <img src="/images/project_s1_01.jpg" class="img-responsive">
+            <img src="/images/process_tokens-for-climate-care_web_mobile.jpg" class="img-responsive">
             <p class="cmpx-30 text-smallest mt-2">The mobile interface</p>
           </b-col>
         </b-row>
@@ -178,11 +178,12 @@
             <p class="f700 text-uppercase mb-4">Communication design</p>
             <p class="mb-4">For promoting the project, we are creating a unique visual identity. The core of the project – new visual tokens that allow for a wide range of applications – is reflected in the communication design.</p>
             <p class="mb-4">In addition to a pre-defined typeface a range of new glyphs is designed, which can replace individual characters. Their aesthetics are based on those of the generated tokens and convey a look suitable for laser projection. Altering replacements for a single character will result in multiple versions of the written text (i.e. Logotype & Headlines). This allows for animation and diverse use in print and online mediums.</p>
-            <p class="mb-0">Big thank you to <a href="http://raoulgottschling.de" target="_blank" rel="nofollow">Raoul Gottschling</a> for providing his typeface 'La Nord' for this project.</p>
+            <p class="f700 text-uppercase mb-4">Typeface and Web Development</p>
+            <p class="mb-0">Big thank you to <a href="http://raoulgottschling.de" target="_blank" rel="nofollow">Raoul Gottschling</a> for providing his typeface 'La Nord' for this project and <a href="https://www.laurentlang.com" target="_blank" rel="nofollow">Laurent Lang</a> for developing this website.</p>
           </b-col>
         </b-row>
         <b-row class="cmmx-0 mt-8">
-          <b-col lg="5" offset-lg="2" class="cmpx-0">
+          <b-col lg="6" offset-lg="2" class="cmpx-0">
             <img src="/images/project_s4_02.png" class="img-responsive">
             <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Custom designed glyphs</p>
           </b-col>
@@ -196,10 +197,10 @@
           </b-col>
         </b-row>
         <b-row class="cmmx-0 mt-5 mt-lg-6">
-          <b-col lg="8" offset-lg="1" class="cmpx-0">
-            <img src="/images/project_s5_01.jpg" class="img-responsive">
+          <b-col lg="9" offset-lg="1" class="cmpx-0">
+            <img src="/images/Process_Martin-Groedl_Moritz-Resl_photography_Thomas-Wunderlich-2.jpg" class="img-responsive">
             <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Process is directed by partners Martin Grödl and Moritz Resl (right)</p>
-            <p class="cmpx-30 text-smallest">Portrait Photography: Philipp Podesser/Kollektiv Fischka</p>
+            <p class="cmpx-30 text-smallest">Portrait Photography: Thomas Wunderlich</p>
           </b-col>
         </b-row>
         <b-row class="mt-6">
