@@ -9,7 +9,7 @@
         </b-row>
         <b-row class="cmmx-0 mt-6">
           <b-col lg="5" offset-lg="1" class="cmpx-30 mb-6 mb-lg-0">
-            <p class="f700 text-uppercase mb-4">London Design Biennale</p>
+            <p class="f700 text-uppercase mb-4">On View in London and Vienna</p>
             <p class="mb-4">Process – Studio for Art and Design was commissioned by <strong>MAK Museum of Applied Arts</strong>, Vienna to realize the official Austrian contribution to <strong>London Design Biennale 2021</strong>.</p>
             <p class="mb-4">For this occasion an installation version of the project is produced. Visitors can interact with it using their mobile phones. After they select a combination of three keywords the generated tokens are projected on a large circular pedestal using a single-beam laser projector.</p>
             <p class="mb-4">Five fine art pigment prints on matte photo rag are mounted on the walls.</p>
