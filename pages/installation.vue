@@ -52,6 +52,13 @@
         </b-row>
         <b-row class="cmmx-0 mt-8">
           <b-col lg="7" offset-lg="4" class="cmpx-0">
+            <img src="/images/process_tokensforclimatecare_009v2.jpg" class="img-responsive">
+            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation View: A laser-projected Tokens and printed artwork hanging on walls</p>
+            <p class="cmpx-30 text-smallest">Photography Mark Cocksedge</p>
+          </b-col>
+        </b-row>
+        <b-row class="cmmx-0 mt-8">
+          <b-col lg="7" offset-lg="1" class="cmpx-0">
             <img src="/images/process_tokensforclimatecare_008v2.jpg" class="img-responsive">
             <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation View: Printed artwork hanging on walls</p>
             <p class="cmpx-30 text-smallest">Photography Mark Cocksedge</p>
