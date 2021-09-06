@@ -37,7 +37,7 @@
               <li>
                 <a href="#about" class="h1 link-with-tooltip-image">
                   About
-                  <img src="/images/project_s5_01.jpg" class="tooltip-image" width="100%">
+                  <img src="/images/Process_Martin-Groedl_Moritz-Resl_photography_Thomas-Wunderlich-2.jpg" class="tooltip-image" width="100%">
                 </a>
               </li>
             </ul>
