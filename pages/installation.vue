@@ -75,7 +75,7 @@
             <p class="f700 mb-4">Commissioned by MAK Museum of Applied Arts, Vienna</p>
             <p class="f700 text-uppercase mb-0">Concept, Design, Development</p>
             <p class="mb-4">Process – Studio for Art and Design<br>Martin Grödl and Moritz Resl</p>
-            <p class="mb-4">Technical Realization developed in cooperation with enliteAI</p>
+            <p class="mb-4">Technical Realization developed in cooperation with enliteAI<br><a href="https://www.enlite.ai"><img src="/images/enliteai_logo.png" height="41px"></a></p>
             <p class="f700 text-uppercase mb-0">Curator</p>
             <p class="mb-4">Marlies Wirth, Curator, Digital Culture and Design Collection, MAK</p>
             <p class="f700 text-uppercase mb-0">Architecture</p>
@@ -83,7 +83,7 @@
             <p class="f700 text-uppercase mb-0">Production Manager</p>
             <p class="mb-4">Mario Kojetinsky, Head of Exhibition Management, MAK</p>
             <p class="f700 text-uppercase mb-0">Funding and administering bodies</p>
-            <p class="mb-4">Federal Ministry for Arts, Culture, the Civil Service and Sport<br>MAK Museum of Applied Arts, Vienna</p>
+            <p class="mb-4">Federal Ministry for Arts, Culture, the Civil Service and Sport<br><a href="https://www.bmkoes.gv.at"><img src="/images/BMKOES_AT_Logo.png" height="60px"></a><br><br>MAK Museum of Applied Arts, Vienna</p>
             <p class="f700 text-uppercase mb-0">Support</p>
             <p class="mb-4">Austrian Cultural Forum London<br>Austrian Federal Economic Chamber<br>Vienna Business Agency</p>
           </b-col>
