@@ -58,7 +58,7 @@
               <li>is an online application</li>
               <li>using machine learning</li>
               <li>to generate graphic symbols</li>
-              <li>for use in branding and promotion of ethical projects, grassroots movements and initiatives</li>
+              <li>for agency, impowerment and activism</li>
               <li>for the common good</li>
             </ul>
           </b-col>
@@ -69,9 +69,16 @@
         </b-row>
         <b-row class="cmmx-0 mt-6">
           <b-col class="cmpx-30" lg="5" offset-lg="1">
-            <p class="f700 mb-6 mb-lg-4">“Using technology to tackle the current and essential human task of climate care.”</p>
-            <p class="mb-4"><strong>Tokens for Climate Care</strong> focuses on the <strong>current and essential human task of climate care</strong> through the transformative power of design and the tools of artificial intelligence. <strong>New signs and signifiers must be developed together with our technologies to enable humanity’s evolving into a climate conscious species.</strong></p>
-            <p class="mb-6 mb-lg-0"><strong>Tokens for Climate Care</strong> is a project using AI-based technology to generate new and original graphical symbols based on a database of logos, symbols and glyphs. <strong>The output samples are accessible worldwide through the &rarr; <a href="/archive/">Archive</a> and may be used freely by and for initiatives for climate care.</strong></p>
+            <p class="mb-4"><strong>Commissioned by the MAK for the London Design Biennale 2021: Resonance and designed by Process – Studio for Art and Design, TOKENS FOR CLIMATE CARE focuses on one of today’s most urgent and essential human tasks: climate care.
+              Nudged by the transformative power of design the project contributes to humanity’s evolution into a climate conscious species that takes immediate collective action for our planet.</strong></p>
+            <p class="mb-4">The project uses a machine learning technique called GAN (Generative Adversarial Network), which instead of only detecting or classifying images, is capable of generating it’s own content! Based on a comprehensive database of more than 10.000 logos, symbols and glyphs, this algorithm generates completely new and original graphic symbols, the "Tokens for Climate Care". They are accessible worldwide and can be freely used by and for activism and initiatives for climate care!</p>
+            <p class="mb-4">For thousands of years, humans have communicated through a language of signs and symbols. All communication (and data processing) is achieved through the use of symbols. Three characteristics of symbols are specifically relevant:</p>
+            <p class="mb-4"><strong>Arbitrary</strong> — Symbols have no natural reason, they must be learned.<br><strong>Ambiguous</strong> — Symbols can have several meanings.<br><strong>Abstract</strong> (Representative) — Symbols are general, not specific.</p>
+            <p class="mb-4">Human cultures use symbols to express ideas, ideologies and social structures. They have the ability to combine symbols in an infinite variety of ways for an infinite variety of meanings.</p>
+            <p class="mb-4">This is the basis for the concept of TOKENS FOR CLIMATE CARE: What if an AI were to conceive of new symbols, to create new linkages between concepts and representations?
+              To ascribe meaning to the Tokens, the team previously linked the data to keywords (“labels”) that encompass social, political, environmental, and economic aspects of the climate crisis. This enables the AI to “learn” the connections between form and meaning and to independently design new, context-related symbols: the “Tokens for Climate Care”.</p>
+            <p class="mb-4">Visitors can select three keywords from their smartphones. These are the basis for the individual tokens. The interactive laser installation is making the generated output data visible as symbols in real time.</p>
+            <p class="mb-4"><strong>The output samples are accessible worldwide through the → <a href="archive/">Archive</a> and may be used freely by and for initiatives for climate care.</strong></p>
           </b-col>
           <b-col lg="5" class="cmpx-0 text-center pl-lg-5">
             <img src="/images/project_s1_02.jpg" class="img-responsive">
@@ -108,7 +115,6 @@
             <p class="mb-4">In the last few years <strong>Artificial Intelligence</strong> and especially <strong>Machine Learning</strong> have become huge buzzwords. The world’s major technology companies are employing a large majority of AI researchers to create prediction products based on mountains of behavioral data they are harvesting from their users.</p>
             <p class="mb-4">We believe no technology is ever inherently good or bad – but is only determined by its use. As such we want to explore the potential of machine learning for <strong>'doing good'</strong> and at the same time open up the black box of AI a bit, demystify and educate.</p>
             <p class="mb-4">As has been recently made clear by an unprecedented global movement, <strong>Climate Change is an existential threat for all of mankind</strong>. It is not a singular issue. To overcome it will require massive economic, ecologic and social changes.</p>
-            <p class="mb-7 mb-lg-0">Being graphic designers as well as technologists we recognize that <strong>many grassroots movements have a branding problem</strong>. In contrast to global corporations and brands they can not afford to hire professional agencies to create a strong visual appearance for them, yet they have to compete for attention of the public on the same media platforms.</p>
           </b-col>
           <b-col lg="4" offset-lg="1" class="cmpx-0 pt-lg-5">
             <img src="/images/project_s2_02.jpg" class="img-responsive">
@@ -116,10 +122,8 @@
             <p class="cmpx-30 text-smallest">Credit: <a href="https://unsplash.com/photos/tyfI3RGqL7Y" target="_blank" rel="nofollow">Unsplash</a></p>
           </b-col>
         </b-row>
-        <b-row class="cmmx-0 mt-6 mt-lg-9">
-          <b-col class="cmpx-30" lg="4" offset-lg="1">
-            <p class="f700 mb-6 mb-lg-0 mt-lg-7">“Many grassroots movements have a branding problem while having to compete on a global scale.”</p>
-          </b-col>
+        <b-row class="cmmx-0 mt-5 mt-lg-8">
+          <b-col class="cmpx-0" lg="5" offset-lg="1"><p class="f700 text-center mt-7 d-none d-lg-block">"Let's take collective action for climate care"</p></b-col>
           <b-col class="cmpx-0" lg="5" offset-lg="1">
             <img src="/images/project_s2_03.jpg" class="img-responsive">
             <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Google Data Center for Machine Learning (Cloud TPU)</p>
