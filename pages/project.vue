@@ -64,7 +64,7 @@
           </b-col>
           <b-col lg="5" order-lg="1" offset-lg="1" class="cmpx-0 mt-4 mt-lg-0 pr-lg-5">
             <img src="/images/process_tokens-for-climate-care_web_mobile.jpg" class="img-responsive">
-            <p class="cmpx-30 text-smallest mt-2">The mobile interface</p>
+            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">The landing page of the mobile webiste/interface</p>
           </b-col>
         </b-row>
         <b-row class="cmmx-0 mt-6">
@@ -73,7 +73,7 @@
               Nudged by the transformative power of design the project contributes to humanity’s evolution into a climate conscious species that takes immediate collective action for our planet.</strong></p>
             <p class="mb-4">The project uses a machine learning technique called GAN (Generative Adversarial Network), which instead of only detecting or classifying images, is capable of generating it’s own content! Based on a comprehensive database of more than 10.000 logos, symbols and glyphs, this algorithm generates completely new and original graphic symbols, the "Tokens for Climate Care". They are accessible worldwide and can be freely used by and for activism and initiatives for climate care!</p>
             <p class="mb-4">For thousands of years, humans have communicated through a language of signs and symbols. All communication (and data processing) is achieved through the use of symbols. Three characteristics of symbols are specifically relevant:</p>
-            <p class="mb-4"><strong>Arbitrary</strong> — Symbols have no natural reason, they must be learned.<br><strong>Ambiguous</strong> — Symbols can have several meanings.<br><strong>Abstract</strong> (Representative) — Symbols are general, not specific.</p>
+            <p class="mb-4"><strong>Arbitrary</strong>—Symbols have no natural reason, they must be learned.<br><strong>Ambiguous</strong>—Symbols can have several meanings.<br><strong>Abstract</strong> (Representative)—Symbols are general, not specific.</p>
             <p class="mb-4">Human cultures use symbols to express ideas, ideologies and social structures. They have the ability to combine symbols in an infinite variety of ways for an infinite variety of meanings.</p>
             <p class="mb-4">This is the basis for the concept of TOKENS FOR CLIMATE CARE: What if an AI were to conceive of new symbols, to create new linkages between concepts and representations?
               To ascribe meaning to the Tokens, the team previously linked the data to keywords (“labels”) that encompass social, political, environmental, and economic aspects of the climate crisis. This enables the AI to “learn” the connections between form and meaning and to independently design new, context-related symbols: the “Tokens for Climate Care”.</p>
@@ -91,7 +91,7 @@
           <b-col lg="7" class="cmpx-0">
             <img src="/images/project_s1_04.jpg" class="img-responsive">
             <p class="cmpx-30 text-smallest mt-2 mb-0 f500">#BlackLivesMatter protest in Stockholm, Sweden</p>
-            <p class="cmpx-30 text-smallest">Credit: <a href="https://unsplash.com/photos/rd5uNIUJCF0" target="_blank" rel="nofollow">Teemu Paananen</a></p>
+            <p class="cmpx-30 text-smallest">Photography credit: <a href="https://unsplash.com/photos/rd5uNIUJCF0" target="_blank" rel="nofollow">Teemu Paananen</a></p>
           </b-col>
         </b-row>
       </section>
@@ -106,7 +106,7 @@
           <b-col class="cmpx-0" lg="11">
             <img src="/images/project_s2_01.jpg" class="img-responsive">
             <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Aerial (drone) view of Arctic Icebergs</p>
-            <p class="cmpx-30 text-smallest">Credit: <a href="https://unsplash.com/photos/UjEGVSD8Ceg" target="_blank" rel="nofollow">Annie Spratt/Unsplash</a></p>
+            <p class="cmpx-30 text-smallest">Photography credit: <a href="https://unsplash.com/photos/UjEGVSD8Ceg" target="_blank" rel="nofollow">Annie Spratt/Unsplash</a></p>
           </b-col>
         </b-row>
         <b-row class="cmmx-0 mt-5 mt-lg-8">
@@ -119,7 +119,7 @@
           <b-col lg="4" offset-lg="1" class="cmpx-0 pt-lg-5">
             <img src="/images/project_s2_02.jpg" class="img-responsive">
             <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Fridays for future (May 24 2019)</p>
-            <p class="cmpx-30 text-smallest">Credit: <a href="https://unsplash.com/photos/tyfI3RGqL7Y" target="_blank" rel="nofollow">Unsplash</a></p>
+            <p class="cmpx-30 text-smallest">Photography credit: <a href="https://unsplash.com/photos/tyfI3RGqL7Y" target="_blank" rel="nofollow">Unsplash</a></p>
           </b-col>
         </b-row>
         <b-row class="cmmx-0 mt-5 mt-lg-8">
@@ -127,7 +127,7 @@
           <b-col class="cmpx-0" lg="5" offset-lg="1">
             <img src="/images/project_s2_03.jpg" class="img-responsive">
             <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Google Data Center for Machine Learning (Cloud TPU)</p>
-            <p class="cmpx-30 text-smallest">Credit: <a href="https://cloud.google.com/tpu" target="_blank" rel="nofollow">Google</a></p>
+            <p class="cmpx-30 text-smallest">Photography credit: <a href="https://cloud.google.com/tpu" target="_blank" rel="nofollow">Google</a></p>
           </b-col>
         </b-row>
       </section>
@@ -204,7 +204,7 @@
           <b-col lg="9" offset-lg="1" class="cmpx-0">
             <img src="/images/Process_Martin-Groedl_Moritz-Resl_photography_Thomas-Wunderlich-2.jpg" class="img-responsive">
             <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Process is directed by partners Martin Grödl and Moritz Resl (right)</p>
-            <p class="cmpx-30 text-smallest">Portrait Photography: Thomas Wunderlich</p>
+            <p class="cmpx-30 text-smallest">Photography credit: Thomas Wunderlich</p>
           </b-col>
         </b-row>
         <b-row class="mt-6">

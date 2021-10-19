@@ -10,8 +10,8 @@
         <b-row class="cmmx-0 mt-6">
           <b-col class="cmpx-0">
             <img src="/images/process_tokensforclimatecare_002v2.jpg" class="img-responsive">
-            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation View at London Design Biennale 2021: Laser projection on pedestal, printed artwork hanging on walls, computer wired and housed within smaller pedestal</p>
-            <p class="cmpx-30 text-smallest">Photography Mark Cocksedge</p>
+            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation view at London Design Biennale 2021: Laser-projected token, printed artwork, computer wired and housed within small pedestal</p>
+            <p class="cmpx-30 text-smallest">Photography credit: Mark Cocksedge/MAK</p>
           </b-col>
         </b-row>
         <b-row class="cmmx-0 mt-6">
@@ -25,7 +25,7 @@
           <b-col lg="5" offset-lg="1" class="cmpx-0">
             <img src="/images/installation_s1_01.jpg" class="img-responsive">
             <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Somerset House, London, United Kingdom</p>
-            <p class="cmpx-30 text-smallest">Credit: <a href="https://unsplash.com/photos/rLYILl2T6Ps" target="_blank" rel="nofollow">Robert Bye/Unsplash</a></p>
+            <p class="cmpx-30 text-smallest">Photography credit: <a href="https://unsplash.com/photos/rLYILl2T6Ps" target="_blank" rel="nofollow">Robert Bye/Unsplash</a></p>
           </b-col>
         </b-row>
         <b-row class="cmmx-0 mt-6">
@@ -49,36 +49,36 @@
         <b-row class="cmmx-0 mt-8">
           <b-col lg="7" offset-lg="3" class="cmpx-0">
             <img src="/images/process_tokensforclimatecare_004v2.jpg" class="img-responsive">
-            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation View at London Design Biennale 2021: Laser projection on pedestal, printed artwork hanging on walls, computer wired and housed within smaller pedestal</p>
-            <p class="cmpx-30 text-smallest">Photography Mark Cocksedge</p>
+            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation view at London Design Biennale 2021: Laser-projected token, printed artwork, computer wired and housed within small pedestal</p>
+            <p class="cmpx-30 text-smallest">Photography credit: Mark Cocksedge/MAK</p>
           </b-col>
         </b-row>
         <b-row class="cmmx-0 mt-8">
           <b-col lg="6" offset-lg="2" class="cmpx-0">
             <img src="/images/process_tokensforclimatecare_001v2.jpg" class="img-responsive">
-            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation View at London Design Biennale 2021: Laser projection on pedestal, printed artwork hanging on walls, computer wired and housed within smaller pedestal</p>
-            <p class="cmpx-30 text-smallest">Photography Mark Cocksedge</p>
+            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation view at London Design Biennale 2021: Laser-projected token, printed artwork, computer wired and housed within small pedestal</p>
+            <p class="cmpx-30 text-smallest">Photography credit: Mark Cocksedge/MAK</p>
           </b-col>
         </b-row>
         <b-row class="cmmx-0 mt-8">
           <b-col lg="7" offset-lg="4" class="cmpx-0">
             <img src="/images/process_tokensforclimatecare_009v2.jpg" class="img-responsive">
-            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation View at London Design Biennale 2021: A laser-projected Token and printed artwork hanging on walls</p>
-            <p class="cmpx-30 text-smallest">Photography Mark Cocksedge</p>
+            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation view at London Design Biennale 2021: A laser-projected token and printed artwork</p>
+            <p class="cmpx-30 text-smallest">Photography credit: Mark Cocksedge/MAK</p>
           </b-col>
         </b-row>
         <b-row class="cmmx-0 mt-8">
           <b-col lg="7" offset-lg="1" class="cmpx-0">
             <img src="/images/process_tokensforclimatecare_008v2.jpg" class="img-responsive">
-            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation View at London Design Biennale 2021: Printed artwork hanging on walls</p>
-            <p class="cmpx-30 text-smallest">Photography Mark Cocksedge</p>
+            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation view at London Design Biennale 2021: Printed artwork</p>
+            <p class="cmpx-30 text-smallest">Photography credit: Mark Cocksedge/MAK</p>
           </b-col>
         </b-row>
         <b-row class="cmmx-0 mt-6">
           <b-col class="cmpx-0">
             <img src="/images/installation-view_mak-vienna.jpg" class="img-responsive">
-            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation View at MAK Vienna: A laser-projected Token and printed artwork</p>
-            <p class="cmpx-30 text-smallest">Photography Simon Veres</p>
+            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation view at MAK Vienna: A laser-projected token and printed artwork</p>
+            <p class="cmpx-30 text-smallest">Photography credit: Simon Veres/MAK</p>
           </b-col>
         </b-row>
         <b-row class="cmmx-0 mt-6">
@@ -100,29 +100,29 @@
         <b-row class="cmmx-0 mt-6">
           <b-col class="cmpx-0">
             <img src="/images/installation-view_mak-vienna_artwork.jpg" class="img-responsive">
-            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation View at MAK Vienna: Printed artwork</p>
-            <p class="cmpx-30 text-smallest">Photography Simon Veres</p>
+            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation view at MAK Vienna: Printed artwork</p>
+            <p class="cmpx-30 text-smallest">Photography credit: Simon Veres/MAK</p>
           </b-col>
         </b-row>
         <b-row class="cmmx-0 mt-8">
           <b-col lg="7" offset-lg="1" class="cmpx-0">
             <img src="/images/installation-view_mak-vienna2.jpg" class="img-responsive">
-            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation View at MAK Vienna</p>
-            <p class="cmpx-30 text-smallest">Photography Simon Veres</p>
+            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation view at MAK Vienna: A laser-projected token and printed artwork</p>
+            <p class="cmpx-30 text-smallest">Photography credit: Simon Veres/MAK</p>
           </b-col>
         </b-row>
         <b-row class="cmmx-0 mt-8">
           <b-col lg="7" offset-lg="2" class="cmpx-0">
             <img src="/images/installation-view_mak-vienna_ui.jpg" class="img-responsive">
-            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation View at MAK Vienna: User Interface to generate a Token</p>
-            <p class="cmpx-30 text-smallest">Photography Simon Veres</p>
+            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation view at MAK Vienna: User interface to generate a token</p>
+            <p class="cmpx-30 text-smallest">Photography credit: Simon Veres/MAK</p>
           </b-col>
         </b-row>
         <b-row class="cmmx-0 mt-8">
           <b-col lg="7" offset-lg="4" class="cmpx-0">
             <img src="/images/installation-view_mak-vienna3.jpg" class="img-responsive">
-            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation View at MAK Vienna</p>
-            <p class="cmpx-30 text-smallest">Photography Simon Veres</p>
+            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">Installation view at MAK Vienna</p>
+            <p class="cmpx-30 text-smallest">Photography credit: Simon Veres/MAK</p>
           </b-col>
         </b-row>
         <b-row class="mt-9">
