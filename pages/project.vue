@@ -64,7 +64,7 @@
           </b-col>
           <b-col lg="5" order-lg="1" offset-lg="1" class="cmpx-0 mt-4 mt-lg-0 pr-lg-5">
             <img src="/images/process_tokens-for-climate-care_web_mobile.jpg" class="img-responsive">
-            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">The landing page of the mobile webiste/interface</p>
+            <p class="cmpx-30 text-smallest mt-2 mb-0 f500">The landing page of the mobile website/interface</p>
           </b-col>
         </b-row>
         <b-row class="cmmx-0 mt-6">
