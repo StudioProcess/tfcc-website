@@ -5,7 +5,7 @@
         <b-col>
           <div class="f700 text-uppercase">
             AUSTRIAN INSTITUTE OF TECHNOLOGY<br>
-            March—September 2021
+            March—September 2022
           </div>
         </b-col>
         <b-col class="d-none d-lg-block">
