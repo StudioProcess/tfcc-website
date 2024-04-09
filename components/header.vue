@@ -19,6 +19,9 @@
             <li class="nav-item f700 text-uppercase mr-lg-5">
               <NuxtLink to="/terms" :class="$route.path.includes('terms') ? 'active nav-link' : 'nav-link'">Terms</NuxtLink>
             </li>
+            <li class="nav-item f700 text-uppercase mr-lg-5">
+              <NuxtLink to="/create" :class="$route.path.includes('create') ? 'active nav-link' : 'nav-link'">Create</NuxtLink>
+            </li>
             <li class="nav-item f700 text-uppercase">
               <NuxtLink to="/archive" :class="$route.path.includes('archive') ? 'active nav-link' : 'nav-link'">Archive</NuxtLink>
             </li>
