@@ -21,3 +21,9 @@ RewriteRule ^generate/?$ /create/ [R,L]
 # /create/<auth_token>  ->  /create?auth=<auth_token>
 RewriteCond %{QUERY_STRING} ^$
 RewriteRule ^create/(.+)$ /create/?auth=$1 [R,L]
+
+
+# Default auth for /create/
+# To allow generating tokens from website
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^create/?$ /create/?auth=<token> [R,L]
